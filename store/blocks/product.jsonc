@@ -38,7 +38,8 @@
        "buy-button",
        "sku-selector",
       "product-quantity",
-      "shipping-simulator"
+      "shipping-simulator",
+      "flex-layout.row#qty-sku"
     ],
     "props": {
       "verticalAlign": "middle",
