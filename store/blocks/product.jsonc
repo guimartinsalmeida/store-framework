@@ -38,22 +38,22 @@
        "buy-button",
        "sku-selector",
       "product-quantity",
-      "shipping-simulator",
-      "flex-layout.row#qty-sku"
+      "shipping-simulator"
     ],
     "props": {
       "verticalAlign": "middle",
       "preventVerticalStretch": "true"
 
+    },
+    "flex-layout.row#qty-sku": {
+      "children": [
+        "sku-selector",
+        "product-quantity",
+        "shipping-simulator"
+      ]
     }
   },
-  "flex-layout.row#qty-sku": {
-    "children": [
-      "sku-selector",
-      "product-quantity",
-      "shipping-simulator"
-    ]
-  },
+  
   "product-price": {
     "props": {
       "showSavings": true,
