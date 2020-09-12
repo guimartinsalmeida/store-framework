@@ -7,11 +7,11 @@
     "blocks":[
     "product-images", 
     "product-price",
+    "flex-layout.row#qty-sku",
      "product-name",
      "product-identifier.product",
       "buy-button",
       "flex-layout.col#left",
-      "flex-layout.row#qty-sku",
       "flex-layout.col#right"
     ]
   },
@@ -31,8 +31,8 @@
   },
   "flex-layout.col#right":{
     "children":[
-      "product-identifier.product",
       "product-name",
+      "product-identifier.product",
        "product-price",
         "buy-button"
     ],
