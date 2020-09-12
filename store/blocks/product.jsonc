@@ -3,8 +3,9 @@
     "children": [
       "breadcrumb",
       "flex-layout.row#main",
-      "flex-layout.row#qty-sku",
-      "shelf.relatedProducts"
+      "shelf.relatedProducts",
+      "flex-layout.row#qty-sku"
+      
 
     ],
     "blocks":[
@@ -79,6 +80,9 @@
       "showVariationsErrorMessage": true,
       "initialSelection": "empty"
     }
+  },
+  "shelf.relatedProducts":{
+
   }
 
 }
